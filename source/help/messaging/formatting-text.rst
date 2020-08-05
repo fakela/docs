@@ -255,9 +255,10 @@ Inline image with hover text
 
   Renders as:
 
-  .. raw:: html
-
-    <img src="../../images/icon-76x76.png" alt="Mattermost" title="Mattermost Icon"></a>
+  .. image:: ../../images/icon-76x76.png
+    :target: https://github.com/mattermost/mattermost-server
+    :alt: Mattermost
+    :title: Mattermost Icon
 
 Inline image with link
   Note the extra set of square brackets.
@@ -279,9 +280,10 @@ Inline image displayed at 50 pixels wide and 76 pixels high
 
   Renders as:
 
-  .. raw:: html
-
-    <img alt="Mattermost" src="../../images/icon-50x76.png" title="Mattermost Icon">
+  .. image:: ../../images/icon-50x76.png
+    :title: Mattermost Icon
+    :alt: Mattermost
+    
 
 Inline image displayed at 50 pixels wide and the height adjusted to suit
   .. code-block:: none
@@ -290,9 +292,11 @@ Inline image displayed at 50 pixels wide and the height adjusted to suit
 
   Renders as:
 
-  .. raw:: html
-
-    <img src="../../images/icon-76x76.png" alt="Mattermost" width="50px" title="Mattermost Icon"></a>
+  .. image:: ../../images/icon-76x76.png
+    :title: Mattermost Icon
+    :alt: Mattermost
+    :width: 50px
+   
 
 Lines
 -----
